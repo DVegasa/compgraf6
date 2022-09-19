@@ -2,22 +2,21 @@
   <div class="container">
     <div class="p-2">
       <h3>Лабораторная №3</h3>
-      3. Рисование сплайновых кривых
-      <ul>
-        <li>сплайновая кривая 2-го порядка (4)</li>
-        <li>сплайновая кривая 3-го порядка (4)</li>
-        <li>сплайновая кривая произвольного порядка (6)</li>
-      </ul>
+      3. Рисование сплайновых кривых - сплайновая кривая произвольного порядка (6)
     </div>
-    <div class="container">
-      <h3>2.1 обычный алгоритм (4)</h3>
-      <canvas class="lab_3__canvas" ref="canvas_elem_3_1"></canvas>
-      <br />
-      <h4>Points amount: {{ pointsAmount }}</h4>
-      <div class="input-group mt-3 w-50 mb-5">
-        <span class="input-group-text">B-spline degree</span>
-        <input type="text" class="form-control" value="2" @input="setDegree" />
-      </div>
+    <div class="container" style="display: flex;">
+			<div>
+				<h3>2.1 обычный алгоритм (4)</h3>
+				<canvas class="lab_3__canvas" ref="canvas_elem_3_1"></canvas>
+			</div>
+
+			<div>
+				<h4>Points amount: {{ pointsAmount }}</h4>
+				<div class="input-group mt-3 w-50 mb-5">
+					<span class="input-group-text">B-spline degree</span>
+					<input type="text" class="form-control" value="2" @input="setDegree" />
+				</div>
+			</div>
     </div>
   </div>
 </template>
