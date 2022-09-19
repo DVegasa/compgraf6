@@ -5,21 +5,23 @@
       4. Рисование многогранника в пространстве (сдвиг, поворот, сжатие,
       трехмерный обзор).
       <ul>
-        <li>а) выпуклый (6)</li>
         <li>б) невыпуклый (8)</li>
       </ul>
     </div>
-    <div class="lab_4__field">
-      <canvas class="lab_4__canvas" ref="canvas_elem"></canvas>
-    </div>
-    <div class="lab_4__controls">
+
+		<div style="display: flex">
+
+			<div class="lab_4__field" style="width: 700px">
+				<canvas class="lab_4__canvas" ref="canvas_elem"></canvas>
+			</div>
+			<div class="lab_4__controls">
       <button @click="clearScreen" class="btn btn-primary me-2">
-        Clear Screen
+        Очистить
       </button>
-      <button @click="saveFigure" class="btn btn-primary">Save Figure</button>
+      <button @click="saveFigure" class="btn btn-primary">Сохранить</button>
 
       <div class="my-3">
-        <label for="formFile" class="form-label">Load figure</label>
+        <label for="formFile" class="form-label">Загрузить</label>
         <input
           class="form-control"
           type="file"
@@ -29,7 +31,7 @@
       </div>
 
       <div class="lab_4__range">
-        <label for="scaleXYZ" class="form-label">scaleXYZ</label>
+        <label for="scaleXYZ" class="form-label">Масштаб всюду</label>
         <input
           type="range"
           name="scaleXYZ"
@@ -40,39 +42,41 @@
         />
       </div>
       <div class="lab_4__range">
-        <label for="scaleX" class="form-label">scaleX</label>
+        <label for="scaleX" class="form-label">Масштаб X</label>
         <input
           type="range"
           name="scaleX"
-          min="1"
+          min="-100"
           max="100"
           @input="(e) => changeScale(e, 'X')"
           class="form-range"
         />
       </div>
       <div class="lab_4__range">
-        <label for="scaleY" class="form-label">scaleY</label>
+        <label for="scaleY" class="form-label">Масштаб Y</label>
         <input
           type="range"
           name="scaleY"
-          min="1"
+          min="-100"
           max="100"
-          @change="(e) => changeScale(e, 'Y')"
+          @input="(e) => changeScale(e, 'Y')"
           class="form-range"
         />
       </div>
       <div class="lab_4__range">
-        <label for="scaleZ" class="form-label">scaleZ</label>
+        <label for="scaleZ" class="form-label">Масштаб Z</label>
         <input
           type="range"
           name="scaleZ"
-          min="1"
+          min="-100"
           max="100"
-          @change="(e) => changeScale(e, 'Z')"
+          @input="(e) => changeScale(e, 'Z')"
           class="form-range"
         />
       </div>
     </div>
+
+		</div>
   </div>
 </template>
 
