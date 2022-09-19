@@ -2,14 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2679f48f-d7da-4d01-b68b-6941aa559dc2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/csv-plugin.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compgraf/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/compgraf/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compgraf/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/compgraf/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compgraf/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/compgraf/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compgraf/src/components/Lab1/Lab1.vue" beforeDir="false" afterPath="$PROJECT_DIR$/compgraf/src/components/Lab1/Lab1.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compgraf/src/views/HomeView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/compgraf/src/views/HomeView.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compgraf/src/components/Lab1/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compgraf/src/components/Lab2/Lab2.vue" beforeDir="false" afterPath="$PROJECT_DIR$/compgraf/src/components/Lab2/Lab2.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compgraf/src/components/Lab2/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compgraf/src/components/Lab2/lab2_2.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compgraf/src/components/Lab2/lab2_3.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compgraf/src/components/Lab2/lab2_4.ts" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,7 +138,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1663597951955</updated>
-      <workItem from="1663597953179" duration="4257000" />
+      <workItem from="1663597953179" duration="5360000" />
     </task>
     <servers />
   </component>
