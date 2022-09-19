@@ -10,6 +10,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="/compgraf/src/components/Lab5/nice_data.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="/dimweb/web-computer-graphics/public/cube.csv">
           <value>
             <Attribute>

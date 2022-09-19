@@ -2,8 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2679f48f-d7da-4d01-b68b-6941aa559dc2" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/csv-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/csv-plugin.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compgraf/src/components/Lab4/Lab4.vue" beforeDir="false" afterPath="$PROJECT_DIR$/compgraf/src/components/Lab4/Lab4.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compgraf/src/components/Lab5/Lab5.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compgraf/src/components/Lab5/lab5.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compgraf/src/components/Lab5/lab5_2.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compgraf/src/components/Lab5/lab5_3.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compgraf/src/components/Lab5/nice_data.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compgraf/src/components/Lab6/lab6.ts" beforeDir="false" afterPath="$PROJECT_DIR$/compgraf/src/components/Lab6/lab6.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compgraf/src/router/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/compgraf/src/router/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compgraf/src/views/HomeView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/compgraf/src/views/HomeView.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,7 +141,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1663597951955</updated>
-      <workItem from="1663597953179" duration="6380000" />
+      <workItem from="1663597953179" duration="6790000" />
     </task>
     <servers />
   </component>

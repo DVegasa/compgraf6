@@ -13,8 +13,8 @@
       <router-link class="link" to="/lab_4"
         ><li>Лабораторная 4</li></router-link
       >
-      <router-link class="link" to="/lab_5"
-        ><li>Лабораторная 5</li></router-link
+      <router-link class="link" to="#" disabled
+        ><li><s>Лабораторная 5</s></li></router-link
       >
       <router-link class="link" to="/lab_6"
         ><li>Лабораторная 6</li></router-link
