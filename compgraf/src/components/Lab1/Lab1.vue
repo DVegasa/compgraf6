@@ -3,69 +3,69 @@
     <div class="lab_1__title">
       <vue-markdown :source="src" />
     </div>
-    <div class="lab_1__field">
-      <canvas class="lab_1__canvas" ref="canvas_elem"></canvas>
-    </div>
     <div class="lab_1__controls">
       <button @click="clearScreen" class="btn btn-primary me-2">
-        Clear Screen
+        Очистить
       </button>
-      <button @click="saveFigure" class="btn btn-primary">Save Figure</button>
+      <button @click="saveFigure" class="btn btn-primary">Сохранить</button>
 
       <div class="my-3">
-        <label for="formFile" class="form-label">Load figure</label>
+        <label for="formFile" class="form-label">Загрузить</label>
         <input
-          class="form-control"
-          type="file"
-          id="formFile"
-          @change="loadFigure"
+            class="form-control"
+            type="file"
+            id="formFile"
+            @change="loadFigure"
         />
       </div>
 
       <div class="lab_1__range">
-        <label for="scaleXYZ" class="form-label">scaleXYZ</label>
+        <label for="scaleXYZ" class="form-label">Масштаб всюду</label>
         <input
-          type="range"
-          name="scaleXYZ"
-          min="1"
-          max="100"
-          @input="(e) => changeScale(e, 'XYZ')"
-          class="form-range"
+            type="range"
+            name="scaleXYZ"
+            min="1"
+            max="100"
+            @input="(e) => changeScale(e, 'XYZ')"
+            class="form-range"
         />
       </div>
       <div class="lab_1__range">
-        <label for="scaleX" class="form-label">scaleX</label>
+        <label for="scaleX" class="form-label">Масштаб X</label>
         <input
-          type="range"
-          name="scaleX"
-          min="1"
-          max="100"
-          @input="(e) => changeScale(e, 'X')"
-          class="form-range"
+            type="range"
+            name="scaleX"
+            min="-100"
+            max="100"
+            @input="(e) => changeScale(e, 'X')"
+            class="form-range"
         />
       </div>
       <div class="lab_1__range">
-        <label for="scaleY" class="form-label">scaleY</label>
+        <label for="scaleY" class="form-label">Масштаб Y</label>
         <input
-          type="range"
-          name="scaleY"
-          min="1"
-          max="100"
-          @change="(e) => changeScale(e, 'Y')"
-          class="form-range"
+            type="range"
+            name="scaleY"
+            min="-100"
+            max="100"
+            @input="(e) => changeScale(e, 'Y')"
+            class="form-range"
         />
       </div>
       <div class="lab_1__range">
-        <label for="scaleZ" class="form-label">scaleZ</label>
+        <label for="scaleZ" class="form-label">Масштаб Z</label>
         <input
-          type="range"
-          name="scaleZ"
-          min="1"
-          max="100"
-          @change="(e) => changeScale(e, 'Z')"
-          class="form-range"
+            type="range"
+            name="scaleZ"
+            min="-100"
+            max="100"
+            @input="(e) => changeScale(e, 'Z')"
+            class="form-range"
         />
       </div>
+    </div>
+    <div class="lab_1__field">
+      <canvas class="lab_1__canvas" ref="canvas_elem"></canvas>
     </div>
   </div>
 </template>
@@ -106,7 +106,7 @@ export default {
   setup(props, ctx) {
     const src = ref(`## Лабораторная №1
     1. Рисование замкнутой ломаной по точкам, заданным пользователем.
-    2. Поворот, сдвиг, копирование, сжатие. 
+    2. Поворот, сдвиг, копирование, сжатие.
     3. Сохранение данных в файл.
     4. Загрузка кривой из файла.`);
 
@@ -126,8 +126,6 @@ export default {
 
 <style lang="sass">
 .lab_1
-	// width: 100%
-	margin: 0 auto
 	max-width: 860px
 	&__field
 		width: 100%
@@ -139,4 +137,7 @@ export default {
 		border: 1px solid #222
 	&__range
 		width: 300px
+
+.form-label
+	width: 100px
 </style>

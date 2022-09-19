@@ -1,30 +1,29 @@
 <template>
   <div class="container mt-4">
-    <h2>Список лабораторных</h2>
-    <ul class="list-group">
-      <router-link class="list-group-item text-center w-25" to="/lab_1"
-        >Лабораторная 1</router-link
+    <ul>
+      <router-link class="link" to="/lab_1"
+        ><li>Лабораторная 1</li></router-link
       >
-      <router-link class="list-group-item text-center w-25" to="/lab_2"
-        >Лабораторная 2</router-link
+      <router-link class="link" to="/lab_2"
+        ><li>Лабораторная 2</li></router-link
       >
-      <router-link class="list-group-item text-center w-25" to="/lab_3"
-        >Лабораторная 3</router-link
+      <router-link class="link" to="/lab_3"
+        ><li>Лабораторная 3</li></router-link
       >
-      <router-link class="list-group-item text-center w-25" to="/lab_4"
-        >Лабораторная 4</router-link
+      <router-link class="link" to="/lab_4"
+        ><li>Лабораторная 4</li></router-link
       >
-      <router-link class="list-group-item text-center w-25" to="/lab_5"
-        >Лабораторная 5</router-link
+      <router-link class="link" to="/lab_5"
+        ><li>Лабораторная 5</li></router-link
       >
-      <router-link class="list-group-item text-center w-25" to="/lab_6"
-        >Лабораторная 6</router-link
+      <router-link class="link" to="/lab_6"
+        ><li>Лабораторная 6</li></router-link
       >
     </ul>
   </div>
 </template>
 
 <style lang="sass">
-.mycontainer
-  margin-top: 200px
+.container
+  font-size: 20px
 </style>
